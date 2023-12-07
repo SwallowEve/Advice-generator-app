@@ -6,7 +6,7 @@ import buttonIcon from '../public/images/icon-dice.svg'
 import useSWR from 'swr'
 
 export default function SectionAdvice() {
-    const fetcher = (...args:[]) => fetch(...args).then(res => res.json())
+    const fetcher = (arg: any, ...args: any) => fetch(arg, ...args).then(res => res.json())
     const { data, error, mutate} = useSWR('https://api.adviceslip.com/advice', fetcher, {
         revalidateIfStale: false,
         revalidateOnFocus: false,
