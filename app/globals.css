@@ -45,5 +45,5 @@ main {
   -webkit-box-shadow: 1px 1px 20px 11px hsla(150, 100%, 66%, 0.2);
   -moz-box-shadow: 1px 1px 20px 11px hsla(150, 100%, 66%, 0.2);
   box-shadow: 1px 1px 15px 8px hsla(150, 100%, 66%, 0.2);
- cursor: pointer;
+  cursor: pointer;
 }
